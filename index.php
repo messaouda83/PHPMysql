@@ -22,8 +22,25 @@
     </ul>
     <p>
         Aujourd'hui nous sommes le:<br />
-            <?php echo date('d/m/y h:i:s'); ?>
-        </p>git 
+        <?php  echo date('d/m/y h:i:s'); 
+//commentaire monoligne
+               echo "<br>";
+               echo "J'habite en France."; // Cette ligne indique où j'habite
+               echo "<br>";
+            // La ligne suivante indique mon âge
+               echo "J'ai 39 ans.";
+               echo "<br>";
+//commentaire multiligne 
+/* La ligne suivante indique mon âge
+Si vous ne me croyez pas...
+... vous avez raison ;o) */
+echo "J'ai 39 ans.";
+
+
+            
+            ?>
+        </p>
+
 </body>
 
 </html>
