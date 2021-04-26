@@ -9,13 +9,10 @@
 </head>
 
 <body>
-    <h2>Page de test</h2>
-    <h2>Affichage de texte avec PHP</h2>
+    <h2>Ma page web</h2>
+
         
-        <p>
-            Cette ligne a été écrite entièrement en HTML.<br />
-            <?php echo "Celle-ci a été écrite entièrement en PHP."; ?>
-        </p>
+        
 
     <ul>
         <li style="color:red;">Text en rouge</li>
@@ -23,10 +20,10 @@
         <li style="color:green;">Text en vert</li>
 
     </ul>
-    <?php
-    /* Encore du PHP
-    Toujours du PHP */
-    ?>
+    <p>
+        Aujourd'hui nous sommes le:<br />
+            <?php echo date('d/m/y h:i:s'); ?>
+        </p>git 
 </body>
 
 </html>
