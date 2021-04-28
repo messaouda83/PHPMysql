@@ -12,7 +12,11 @@
 <h1>Transmettre les données avec les formulaire</h1>
 <p>Veuilez taper votre prenom</p>
 <form action="cible.php" method="post">
+
 <input type="text" name="prenom" >
+<br>
+  <textarea name="message" id="" cols="30" rows="10">
+  </textarea>
 <input type="submit" value="Valider">
 
 </form>
