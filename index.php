@@ -15,6 +15,13 @@
 
 <input type="text" name="prenom" >
 <br>
+<select name="choixpays">
+    <option value="choix1">France</option>
+    <option value="choix2">Algérie</option>
+    <option value="choix3">Russie</option>
+    <option value="choix4">Tunisie</option>
+</select>
+<br>
   <textarea name="message" id="" cols="30" rows="10">
   </textarea>
 <input type="submit" value="Valider">
