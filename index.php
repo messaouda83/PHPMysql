@@ -9,6 +9,13 @@
 </head>
 
 <body>
+<h1>Transmettre les données avec les formulaire</h1>
+<p>Veuilez taper votre prenom</p>
+<form action="cible.php" method="post">
+<input type="text" name="prenom" >
+<input type="submit" value="Valider">
+
+</form>
     <h2>Ma page web</h2>
 
         
